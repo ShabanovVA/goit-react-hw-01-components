@@ -1,4 +1,6 @@
 .profile {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   height: 500px;
   width: 300px;
@@ -37,10 +39,9 @@
   text-align: center;
 }
 
-.statsBox {
+.stats li {
   display: flex;
   width: 33.333%;
-  height: 100%;
   padding: 0;
   flex-direction: column;
   justify-content: center;

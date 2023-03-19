@@ -1,0 +1,24 @@
+.transaction_history {
+  margin-top: 10px;
+  width: 750px;
+  border: 1px grey solid;
+}
+
+thead {
+  background-color: blue;
+}
+
+th {
+  color: white;
+}
+
+tr {
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: darkslategray;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
